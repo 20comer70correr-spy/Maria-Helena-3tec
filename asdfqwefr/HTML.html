@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <script src="Java.js"></script>
+        <link rel="stylesheet" href="Estilo.css">
+    </head>
+    <body>
+        <div class="calculadora">
+            <input type="text" id="tela" class="tela" diasbled />
+            <div class="botoes">
+                <button class="botao" onclick="AdicionarValor('1')">1</button>
+                <button class="botao" onclick="AdicionarValor('2')">2</button>
+                <button class="botao" onclick="AdicionarValor('3')">3</button>
+
+                <button class="botao" onclick="AdicionarValor('4')">4</button>
+                <button class="botao" onclick="AdicionarValor('5')">5</button>
+                <button class="botao" onclick="AdicionarValor('6')">6</button>
+
+                <button class="botao" onclick="AdicionarValor('7')">7</button>
+                <button class="botao" onclick="AdicionarValor('8')">8</button>
+                <button class="botao" onclick="AdicionarValor('9')">9</button>
+                <button class="botao" onclick="AdicionarValor('0')">0</button>
+
+                <button class="botao operacao" onclick="AdicionarValor('*')">*</button>
+                <button class="botao operacao" onclick="AdicionarValor('+')">+</button>
+                <button class="botao operacao" onclick="AdicionarValor('-')">-</button>
+                <button class="botao operacao" onclick="AdicionarValor('/')">/</button>
+                <button class="botao operacao" onclick="calcular()">=</button>
+            </div>
+        </div>
+    </body>
+</html>
